@@ -1,0 +1,101 @@
+{
+   "intents":[
+   
+   {
+      "tag":"greeting",
+      "patterns":["hello", "hi", "nova","wake up","hey","wake up nova"
+
+
+      ],
+      "responses":["Hello sir", "Hello sir, how are you", "Welcome","Always for you sir",
+      "Yes sir", "Hey", "Hello sir, I am nova your virtual assistant"
+      ]
+ },
+ {
+    "tag":"bye",
+    "patterns":["Bye", "Goodbye", "See you later","Exit","stop"
+
+    ],
+    "responses":["Bye", "Goodbye", "See you later","Gotcha","Take care, bye"
+
+    ]
+},
+{
+    "tag":"health",
+    "patterns":["How are you","whats up","are you okay","are you fine","are you working fine"
+
+    ],
+    "responses":["fine","perfect","I am good what about you","Nice","Great sir"
+
+    ]
+},
+{
+    "tag":"identity",
+    "patterns":["your name","what is your name","who you are","are you fine","are you working fine"
+
+    ],
+    "responses":["nova","I am nova","an A.I. assistant nova","My name is nova","Great assistant, nova"
+
+    ]
+},
+{
+    "tag":"time",
+    "patterns":["what is time","what's time","what is the time now","are you fine","are you working fine"
+
+    ],
+    "responses":["time"
+
+    ]
+},
+{
+    "tag":"date",
+    "patterns":["what is date","tarikh","what's the date","tareek","what is today's date","what's today's date"
+
+    ],
+    "responses":["date"
+
+    ]
+},
+{
+    "tag":"day",
+    "patterns":["what is day","what's the day","what is today's day","what's today's day"
+
+    ],
+    "responses":["day"]
+},
+{
+    "tag":"wikipedia",
+    "patterns":["who is","wikipedia","about","what is","Tell me about","What is meant by","what is the meaning of"
+
+    ],
+    "responses":["wikipedia"
+
+    ]
+},
+{
+    "tag":"google",
+    "patterns":["google search","google","search"
+
+    ],
+    "responses":["google"
+
+    ]
+},{
+    "tag":"end",
+    "patterns":["Have a great day"
+    ],
+    "responses":["you too sir"
+
+    ]
+},
+{
+    "tag":"Thank you",
+    "patterns":["Thank you"
+    ],
+    "responses":["Thank you sir"
+
+    ]
+}
+]
+
+}
